@@ -1,0 +1,1 @@
+Library for performing robot dynamic modelling using dual quaternion algebra
