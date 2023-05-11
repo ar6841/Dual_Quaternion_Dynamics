@@ -50,8 +50,4 @@ Wrench(const Eigen::Vector3<T>& force,  const Eigen::Vector3<T>& moment, const E
     return dualquat::DualQuaternion(force,(moment+point.cross(force)));
 }
 
-
-
-
-
 } // namespace Dynamics
