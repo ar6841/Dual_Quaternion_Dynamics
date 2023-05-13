@@ -16,7 +16,5 @@ void Check_DUALQUATPURE(const std::string& error, const dualquat::DualQuaternion
     }
 }
 
-
-
 } //Errors
 
