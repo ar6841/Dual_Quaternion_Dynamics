@@ -1,6 +1,6 @@
 TODO: update README
 
-# Dual_Quaternion_Forward_Kinematics
+# Dual_Quaternion_Dynamics
 C++ Library for performing robot dynamic modelling using dual quaternion algebra.
 
 Dual quaternions are extentions of quaternions as a dual number, just as quaternions of unit length can be used to represent 3D rotations, dual quaternions of unit length can be used to represent 3D rigid motions. Dual quaternions provide a more stable and compact form for representing rigid body motion, and a unified space for performing modelling, control and planning when compared to classical tranformation methods.
