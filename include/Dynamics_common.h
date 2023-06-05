@@ -9,6 +9,7 @@ This header file contains common functions for creating the dual intertia matrix
 
 namespace Dynamics
 {
+
 template<typename T>
 Eigen::Matrix<T,8,8> // TODO: Make this a sparse matrix
 DualInertia(const T& mass, const Eigen::Matrix<T,3,3>& inertia_3x3)
@@ -46,6 +47,4 @@ DualMomentum(const Eigen::Matrix<T,8,8>& DualIntertia, const Eigen::Matrix<T,8,1
 }
 
 
-/*
-*/
 } // namespace Dynamics
